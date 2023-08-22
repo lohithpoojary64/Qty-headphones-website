@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh ;
+}
+
+.main{
+    position: relative;
+    background-color: rgb(122, 121, 121);
+    min-height: 100vh;
+    width: 100%;
+   
+}
+
+.top{
+   position: relative;
+    min-height: 100vh;
+    width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-position:center;
+  opacity: 2;
+  
+}
+.logo{
+    padding: 0 10vh;
+    cursor: pointer;
+}
+.logo h1{
+    color: white;
+}
+.overlay{
+    width: 100%;
+    min-height: 20vh;
+    position: relative;
+    top: 250px;
+    cursor: pointer;
+}
+
+.name{
+    position: absolute;
+    width: 100%;
+   
+   padding: 0 10vw;
+ 
+
+}
+.name p{
+    margin-top: 10px;
+    color: white;
+    font-size: larger;
+}
+
+.name h1{
+   
+    font-weight: 400;
+    color: white;
+   font-size: 10vh;
+   left: 30px;
+}
+.icons svg{
+    width: 30px;
+}
+.bottom{
+    display: flex;
+}
+
+.b2{
+    width: 50%;
+    min-height: 50vh;
+    background-image: url(filip-VHf4jqrUu7g-unsplash.jpg);
+    background-size: cover;
+   
+}
+
+.h1{
+    width: 200px;
+   position: relative;
+   top: 200px;
+   left: 30px;
+ 
+}
+
+.b2 h1{
+    color: white;
+  top: 20px;
+   text-transform: uppercase;
+}
+.b2 p{
+    color: white;
+    font-size: 20px;
+}
+
+.b3{
+    width: 25%;
+    min-height: 50vh; 
+   
+}
+
+.text{
+    position: relative;
+    top: 225px;
+    left: 30px;
+}
+.text h1{
+    position: relative;
+   font-size: 3vw;
+   font-family: Arial, Helvetica, sans-serif;
+ 
+   
+}
+
+.b4{
+    width: 25%;
+    min-height: 50vh;
+   background-image: url(adam-birkett-vISNAATFXlE-unsplash.jpg);
+   background-size: cover;
+}
+#top{
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg);
+    background-size: 100% 90%;
+}
+#bottom{
+    min-height: 45vh;
+    width: 100%;
+    background-image: url(c-d-x-dBwadhWa-lI-unsplash.jpg);
+    background-size: 100% 90%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+@media(max-width:500px){
+    .logo{
+       position: absolute;
+       left: 10px;
+       padding: 0;
+    }
+    .overlay{
+        width: 100%;
+        min-height: 10vh;
+        position: relative;
+        top: 200px;
+    }
+    .name{
+        position: relative;
+        width: 100%;
+     
+       padding: 0 10vw;
+     
+    
+    }
+    .name p{
+      
+        color: white;
+        font-size: 20px;
+    }
+    
+    .name h1{
+       
+        font-weight: 400;
+        color: white;
+       font-size: 10vh;
+       left: 30px;
+    }
+    .icons svg{
+        width: 30px;
+}
+.bottom{
+    display: flex;
+  flex-direction: column;
+}
+.b2{
+   position: relative;
+    width: 100%;
+    min-height: 70vh;
+    background-image: url(filip-VHf4jqrUu7g-unsplash.jpg);
+    background-size: cover;
+   
+}
+
+.h1{
+    width: 200px;
+   position: relative;
+   top: 200px;
+   left: 30px;
+ 
+}
+
+.b2 h1{
+    color: white;
+  top: 10px;
+   text-transform: uppercase;
+}
+.b2 p{
+    color: white;
+    font-size: 20px;
+}
+
+.b3{
+   position: relative;
+    width: 100%;
+    min-height: 50vh; 
+   
+}
+
+.text{
+    position: relative;
+    top: 225px;
+    left: 30px;
+}
+.text h1{
+    position: relative;
+   font-size: 3vw;
+   font-family: Arial, Helvetica, sans-serif;
+ 
+   
+}
+.image{
+    height: 200px;
+    width: 350px;
+}
+.b4{
+    width: 100%;
+    min-height: 80vh;
+   background-image: url(adam-birkett-vISNAATFXlE-unsplash.jpg);
+   background-size: cover;
+}
+#top{
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg);
+    background-size: 100% 90%;
+}
+#bottom{
+    min-height: 45vh;
+    width: 100%;
+    background-image: url(c-d-x-dBwadhWa-lI-unsplash.jpg);
+    background-size: 100% 90%;
+}
+
+}
